@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;box-sizing: border-box;
+}
+footer {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 1);
+    padding-top: 100px;
+    position: absolute;
+    bottom: 0%;
+}
+footer .container {
+    width: 40%;
+    margin: 0px auto;
+    text-align: center;
+}
+footer input,textarea {
+    width: 100%;
+    padding: 20px 30px;
+    border: none;   
+    color: white; 
+    font-size: 15px;
+    transition: 1s all;
+}
+footer input::placeholder,textarea::placeholder {
+    color: aliceblue;
+    font-style: italic;
+    font-size: 15px;
+    border: none;
+}
+input:checked {
+    border: 2px solid #8BCAC3;
+}
+footer .name,.budget {
+    background-color: rgba(255, 255, 255, 0.18);
+} 
+footer .email,.comment {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+footer button {
+    border-color: #8BCAC3;
+    color: #8BCAC3;
+    font-style: italic;
+    font-size: 17px;
+    padding: 10px 20px;
+    background-color: black;
+    margin: 20px 0;
+}
+footer button:hover {
+    background-color: #8BCAC3;
+    color: rgba(0, 0, 0, 0.753);
+}
+footer img {
+    display: block;
+    margin: 10px auto;
+}
+footer p {
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.4);
+    margin: 20px;   
+}
+
+@media (max-width:768px){
+    footer .container {
+        width: 60%;
+    }
+}
+@media (max-width:480px){
+    footer .container  {
+        width: 80%;
+    }
+    footer input
+    ,input::placeholder 
+    ,button, p {
+        font-size: 13px;
+    }
+}
+@media (max-width:320px){
+    footer .container  {
+        width: 90%;
+    }
+}
