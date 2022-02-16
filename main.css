@@ -1,13 +1,12 @@
 * {
     margin: 0;
-    padding: 0;box-sizing: border-box;
+    padding: 0;
+    box-sizing: border-box;
 }
 footer {
     width: 100%;
     background-color: rgba(0, 0, 0, 1);
-    padding-top: 100px;
-    position: absolute;
-    bottom: 0%;
+    padding-top: 80px;
 }
 footer .container {
     width: 40%;
@@ -59,7 +58,7 @@ footer p {
     color: rgba(255, 255, 255, 0.4);
     margin: 20px;   
 }
-
+/* media */
 @media (max-width:768px){
     footer .container {
         width: 60%;
